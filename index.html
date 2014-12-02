@@ -1,163 +1,324 @@
 <!doctype html>
 <html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Foundation</title>
-    <link rel="stylesheet" href="stylesheets/app.css" />
+    <link rel="stylesheet" href="stylesheets/app.css"/>
     <script src="bower_components/modernizr/modernizr.js"></script>
-  </head>
-  <body>
-    <div class="row">
-      <div class="large-12 columns">
-        <h1>Welcome to Foundation</h1>
-      </div>
-    </div>
-    
-    <div class="row">
-      <div class="large-12 columns">
-        <div class="panel">
-          <h3>We&rsquo;re stoked you want to try Foundation! </h3>
-          <p>To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
-          <p>Once you've exhausted the fun in this document, you should check out:</p>
-          <div class="row">
-            <div class="large-4 medium-4 columns">
-          <p><a href="http://foundation.zurb.com/docs">Foundation Documentation</a><br />Everything you need to know about using the framework.</p>
-        </div>
-            <div class="large-4 medium-4 columns">
-              <p><a href="http://github.com/zurb/foundation">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</p>
-            </div>
-            <div class="large-4 medium-4 columns">
-              <p><a href="http://twitter.com/foundationzurb">@foundationzurb</a><br />Ping us on Twitter if you have questions. If you build something with this we'd love to see it (and send you a totally boss sticker).</p>
-            </div>        
-          </div>
-        </div>
-      </div>
-    </div>
+    <link rel="stylesheet" type="text/css" href="bower_components/slick.js/slick/slick.css"/>
+</head>
+<body>
 
-    <div class="row">
-      <div class="large-8 medium-8 columns">
-        <h5>Here&rsquo;s your basic grid:</h5>
-        <!-- Grid Example -->
+<div class="fixed">
+    <nav class="top-bar" data-topbar role="navigation">
+        <ul class="title-area">
+            <li class="name">
+                <h1><a href="#">Jolly Maps</a></h1>
+            </li>
+            <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+            <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+        </ul>
 
-        <div class="row">
-          <div class="large-12 columns">
-            <div class="callout panel">
-              <p><strong>This is a twelve column section in a row.</strong> Each of these includes a div.panel element so you can see where the columns are - it's not required at all for the grid.</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="large-6 medium-6 columns">
-            <div class="callout panel">
-              <p>Six columns</p>
-            </div>
-          </div>
-          <div class="large-6 medium-6 columns">
-            <div class="callout panel">
-              <p>Six columns</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-        </div>
-        
-        <hr />
-                
-        <h5>We bet you&rsquo;ll need a form somewhere:</h5>
-        <form>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-12.columns" />
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-4 medium-4 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-4.columns" />
-            </div>
-            <div class="large-4 medium-4 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-4.columns" />
-            </div>
-            <div class="large-4 medium-4 columns">
-              <div class="row collapse">
-                <label>Input Label</label>
-                <div class="small-9 columns">
-                  <input type="text" placeholder="small-9.columns" />
+        <section class="top-bar-section">
+            <!-- Right Nav Section -->
+            <ul class="right">
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
+            <ul class="right">
+                <li><a href="#publications">Publications</a></li>
+            </ul>
+            <ul class="right">
+                <li><a href="#apps">Apps</a></li>
+            </ul>
+    </nav>
+</div>
+
+<div><a name="apps"></a>
+</div>
+
+<div class="row">
+    <div class="small-12 columns text-center">
+        <h1><strong>Our Guides for iPhone and iPad</strong></h1>
+        <img src="images/icons/images.jpeg">
+
+        <p></p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="small-6 columns">
+        <div class="slider fade">
+            <h4 class="subheader text-center"><strong>Mauritius JollyMaps</strong></h4>
+
+            <div>
+                <div class="image"><img src="images/apps/mauritius/mauritius-splash-jollymaps-2015.jpg"/>
                 </div>
-                <div class="small-3 columns">
-                  <span class="postfix">.com</span>
+                <p class="text-center">Soon Available on AppStore</p>
+            </div>
+            <div>
+                <div class="image"><img src="images/apps/mauritius/mauritius-map-jollymaps-2015.jpg"/>
                 </div>
-              </div>
+                <p class="text-center">Detailed Map of Mauritius</p>
             </div>
-          </div>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Select Box</label>
-              <select>
-                <option value="husker">Husker</option>
-                <option value="starbuck">Starbuck</option>
-                <option value="hotdog">Hot Dog</option>
-                <option value="apollo">Apollo</option>
-              </select>
+            <div>
+                <div class="image"><img src="images/apps/mauritius/mauritius-history-jollymaps-2015.jpg"/>
+                </div>
+                <p class="text-center">Guide of Mauritius: History</p>
             </div>
-          </div>
-          <div class="row">
-            <div class="large-6 medium-6 columns">
-              <label>Choose Your Favorite</label>
-              <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Radio 1</label>
-              <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Radio 2</label>
+            <div>
+                <div class="image"><img src="images/apps/mauritius/mauritius-information-jollymaps-2015.jpg"/>
+                </div>
+                <p class="text-center">Guide of Mauritius: Information</p>
             </div>
-            <div class="large-6 medium-6 columns">
-              <label>Check these out</label>
-              <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
-              <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
+            <div>
+                <div class="image"><img src="images/apps/mauritius/mauritius-excursions-jollymaps-2015.jpg"/>
+                </div>
+                <p class="text-center">Guide of Mauritius: Excursions</p>
             </div>
-          </div>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Textarea Label</label>
-              <textarea placeholder="small-12.columns"></textarea>
+            <div>
+                <div class="image"><img src="images/apps/mauritius/mauritius-places-jollymaps-2015.jpg"/>
+                </div>
+                <p class="text-center">Guide of Mauritius: Selected Places</p>
             </div>
-          </div>
-        </form>
-      </div>     
-
-      <div class="large-4 medium-4 columns">
-        <h5>Try one of these buttons:</h5>
-        <p><a href="#" class="small button">Simple Button</a><br/>
-        <a href="#" class="small radius button">Radius Button</a><br/>
-        <a href="#" class="small round button">Round Button</a><br/>            
-        <a href="#" class="medium success button">Success Btn</a><br/>
-        <a href="#" class="medium alert button">Alert Btn</a><br/>
-        <a href="#" class="medium secondary button">Secondary Btn</a></p>           
-        <div class="panel">
-          <h5>So many components, girl!</h5>
-          <p>A whole kitchen sink of goodies comes with Foundation. Check out the docs to see them all, along with details on making them your own.</p>
-          <a href="http://foundation.zurb.com/docs/" class="small button">Go to Foundation Docs</a>          
         </div>
-      </div>
     </div>
+    <div class="small-6 columns">
+        <div class="slider fade">
+            <h4 class="subheader text-center"><strong>Seychelles JollyMaps</strong></h4>
 
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="bower_components/foundation/js/foundation.min.js"></script>
-    <script src="js/app.js"></script>
-  </body>
+            <div>
+                <div class="image"><img src="images/apps/seychelles/seychelles-splash-jollymaps-2015.jpg"/>
+                </div>
+                <p class="text-center">Soon Available on AppStore</p>
+            </div>
+            <div>
+                <div class="image"><img src="images/apps/seychelles/seychelles-mahe-map-jollymaps-2015.PNG"/>
+                </div>
+                <p class="text-center">Detailed Map of Mahé</p>
+            </div>
+            <div>
+                <div class="image"><img src="images/apps/seychelles/seychelles-praslin-map-jollymaps-2015.jpg"/>
+                </div>
+                <p class="text-center">Detailed Map of Praslin</p>
+            </div>
+            <div>
+                <div class="image"><img src="images/apps/seychelles/seychelles-ladigue-map-jollymaps-2015.PNG"/>
+                </div>
+                <p class="text-center">Detailed Map of La Digue</p>
+            </div>
+            <div>
+                <div class="image"><img src="images/apps/seychelles/seychelles-history-jollymaps-2015.jpg"/>
+                </div>
+                <p class="text-center">Guide of Seychelles: History</p>
+            </div>
+            <div>
+                <div class="image"><img src="images/apps/seychelles/seychelles-information-jollymaps-2015.jpg"/>
+                </div>
+                <p class="text-center">Guide of Seychelles: Information</p>
+            </div>
+            <div>
+                <div class="image"><img src="images/apps/seychelles/seychelles-excursions-jollymaps-2015.jpg"/>
+                </div>
+                <p class="text-center">Guide of Seychelles: Excursions</p>
+            </div>
+            <div>
+                <div class="image"><img src="images/apps/seychelles/seychelles-places-jollymaps-2015.jpg"/>
+                </div>
+                <p class="text-center">Guide of Seychelles: Selected Places</p>
+            </div>
+        </div>
+    </div>
+</div>
+<a name="publications"></a>
+<hr/>
+
+<div class="row">
+    <div class="small-12 columns text-center">
+        <h1><strong>Our Publications</strong></h1>
+    </div>
+</div>
+
+<div class="row">
+    <div class="small-12 columns">
+        <h3 class="subheader"><strong>MAP OF SEYCHELLES</strong></h3>
+    </div>
+</div>
+<div class="row">
+    <ul class="small-block-grid-2">
+        <li>
+            <img src="images/publications/seychelles-map-jollypress-2015.jpg"/>
+        </li>
+        <li>
+            <p>
+                Mahé, Praslin and La Digue map updated with the inner island and Victoria map, 15h edition, 150.000
+                copies printed, free distribution.
+            </p>
+        </li>
+    </ul>
+</div>
+<hr/>
+
+<div class="row">
+    <div class="small-12 columns">
+        <h3 class="subheader"><strong>MAP OF MAURITIUS</strong></h3>
+    </div>
+</div>
+<div class="row">
+    <ul class="small-block-grid-2">
+        <li>
+            <img src="images/publications/mauritius-map-jollypress-2015.jpg"/>
+        </li>
+        <li>
+            <p>
+                Map and also general information in 6 languages, 16h edition, 150.000 copies printed, free distribution.
+            </p>
+        </li>
+    </ul>
+</div>
+<hr/>
+
+
+<div class="row">
+    <div class="small-12 columns">
+        <h3 class="subheader"><strong>ELITE TRAVEL SEYCHELLES</strong></h3>
+    </div>
+</div>
+<div class="row">
+    <ul class="small-block-grid-2">
+        <li>
+            <img src="images/publications/seychelles-elite-jollypress-2015.jpg"/>
+        </li>
+        <li>
+            <p>
+                Special Subject magazine, size 24x33cm, 80 colour pages free distribution.
+                Issue for TOPRESA Paris (September) distributed during the year to the Tour Operator and Travel Agency.
+                Elite Travel is a promotion means for the professional of tourism: T.O. and Travel Agency.
+            </p>
+        </li>
+    </ul>
+</div>
+<hr/>
+
+<div class="row">
+    <div class="small-12 columns">
+        <h3 class="subheader"><strong>ELITE TRAVEL MAURITIUS</strong></h3>
+    </div>
+</div>
+<div class="row">
+    <ul class="small-block-grid-2">
+        <li>
+            <img src="images/publications/mauritius-elite-jollypress-2015.jpg"/>
+        </li>
+        <li>
+            <p>
+                Special Subject magazine, size 24x33cm, 80 colour pages free distribution.
+                Issue for TOPRESA Paris (September) distributed during the year to the Tour Operator and Travel Agency.
+                Elite Travel is a promotion means for the professional of tourism: T.O. and Travel Agency.
+            </p>
+        </li>
+    </ul>
+</div>
+<hr/>
+
+<div class="row">
+    <div class="small-12 columns">
+        <h3 class="subheader"><strong>GUIDEBOOK “SEYCHELLES FOR YOU”</strong></h3>
+    </div>
+</div>
+<div class="row">
+    <ul class="small-block-grid-2">
+        <li>
+            <img src="images/publications/seychelles-guide-jollypress-2015.jpg"/>
+        </li>
+        <li>
+            <p>
+                in 5 languages: Italian, English, French, German, Russian and Chinese. 30.000 copies printed, free
+                distribution, updated until last minute before printing,
+                distributed during the International Travel Fairs (WTM London, BIT Milan, ITB Berlin, Moscow, BMT
+                Naples, Topresa Paris, TTG Rimini)
+                and by the travel agency, T.O., tourism office, airlines, hotels.
+            </p>
+        </li>
+    </ul>
+</div>
+<hr/>
+
+<div class="row">
+    <div class="small-12 columns">
+        <h3 class="subheader"><strong>GUIDEBOOK “MAURITIUS FOR YOU”</strong></h3>
+    </div>
+</div>
+<div class="row">
+    <ul class="small-block-grid-2">
+        <li>
+            <img src="images/publications/mauritius-guide-jollypress-2015.jpg"/>
+        </li>
+        <li>
+            <p>
+                in 5 languages: Italian, English, French, German, Russian and Chinese. 30.000 copies printed, free
+                distribution, updated until last minute before printing,
+                distributed during the International Travel Fairs (WTM London, BIT Milan, ITB Berlin, Moscow, BMT
+                Naples, Topresa Paris, TTG Rimini)
+                and by the travel agency, T.O., tourism office, airlines, hotels.
+            </p>
+        </li>
+    </ul>
+</div>
+<hr/>
+
+<div class="row">
+    <div class="small-12 columns">
+        <h3 class="subheader"><strong>CONTACTS</strong></h3>
+    </div>
+</div>
+<div class="row">
+    <a name="contacts"></a>
+
+    <div class="small-3 columns">
+        <img src="images/icons/CUSTOMERS.png"/>
+    </div>
+    <div class="small-9 columns">
+        <p>
+            Dr. Lucia Ciunfrini, Editor, Jollypress<br/>
+            Via Paola Falconieri, 49<br/>
+            00152 Roma - Italy<br/>
+            Tel/Fax +39 06538879<br/>
+            Mobile +39 347 4749928<br/>
+            Skype: jollyphone<br/>
+        </p>
+    </div>
+</div>
+<hr/>
+
+
+<div class="row">
+    <div class="small-12 columns">
+        <p class="text-center">
+            Copyright &copy; 2014 Jollypress. All&nbsp;Rights&nbsp;Reserved.
+        </p>
+    </div>
+</div>
+
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/foundation/js/foundation.min.js"></script>
+<script src="js/app.js"></script>
+<script type="text/javascript" src="bower_components/slick.js/slick/slick.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.fade').slick({
+            dots: true,
+            arrows: false,
+            autoplay: true,
+            autoplaySpeed: 3000,
+            infinite: true,
+            speed: 500,
+            fade: true,
+            slide: 'div',
+            cssEase: 'linear'
+        });
+    });
+</script>
+
+</body>
 </html>
